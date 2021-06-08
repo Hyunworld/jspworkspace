@@ -1,0 +1,18 @@
+package com.myweb.user.model;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class UserDAO {
+	//1.스스로 객체를 1개 생성합니다.
+	private static UserDAO instance = new UserDAO();
+	//2.외부에서 생성자를 호출할 수 없도록 생성자에 pri
+	String url="jdbc:oracle:thin:@localhost:1521/XEPDB1";
+	String uid = "JSP";
+	String upw = "JSP";
+	
+	Connection conn = null;
+	PreparedStatement pstmt = null;
+	ResultSet rs = null;
+}

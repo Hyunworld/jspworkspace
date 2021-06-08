@@ -1,0 +1,13 @@
+package bean.example;
+
+public class User {
+	/*
+	 * 자바빈으로 이요할 클래스는 form과 DB의 통신과정에서 변수들의 처리를 쉽게하기 위해서 사용합니다.
+	 * 관련변수를 동일한 이름으로 선언하고, 반드시 getter와 setter메서드를 생성합니다.
+	 * 반드시 기본생성자도 생성을 해야합니다.
+	 */
+	private String id;
+	private String pw;
+	private String name;
+	private String email;
+}
